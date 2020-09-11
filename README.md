@@ -12,8 +12,16 @@
 # Basic Structure
 
 1. \<template>\</template>
-2. \<script>import Component from './'; export default{name: 'app', components:{}, data(){}, methods:{}};\</script>
-3. \<style>\</style> Or \<style scoped>\</style>
+2. \<script></br>
+   import Component from './'; </br>
+   export default {</br>
+   name: 'app', </br>
+   components:{}, </br>
+   data(){}, </br>
+   methods:{} </br>
+   };</br>
+   \</script>
+3. \<style>\</style> or \<style scoped>\</style>
 
 # Basic Grammar
 
@@ -23,6 +31,10 @@
    - del-todo is code convention
    - \$emit을 이용하면 클릭한 대상을 상위 컴포넌트로 보내줄 수 있다.
 4.
+
+# Tips
+
+- npm i uuid(for unique id)
 
 # traversy_vue_todolist
 
