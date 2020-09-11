@@ -32,13 +32,14 @@
    - del-todo is code convention
    - \$emit을 이용하면 클릭한 대상을 상위 컴포넌트로 보내줄 수 있다.
 4. v-model
-5.
+5. Vue-router: vue ui - plugins 에서 클릭해주면 알아서 설치하고, App.vue를 덮어씀. 그러니 router 사용할거면 처음에 설치할 것
 
 # Tips
 
 - npm i uuid(for unique id)
 - fake Rest API(https://jsonplaceholder.typicode.com/) https://jsonplaceholder.typicode.com/todos
 - npm i axios(for Rest API)
+- npm run build or ui - build - run task
 
 # traversy_vue_todolist
 
