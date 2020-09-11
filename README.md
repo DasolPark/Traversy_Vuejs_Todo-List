@@ -19,6 +19,7 @@
    components:{}, </br>
    data(){}, </br>
    methods:{} </br>
+   created(){} React의 componentDidmount(){}같은 것</br>
    };</br>
    \</script>
 3. \<style>\</style> or \<style scoped>\</style>
@@ -30,11 +31,14 @@
 3. v-on:eventName="function", @click="\$emit('del-todo', todo.id)"
    - del-todo is code convention
    - \$emit을 이용하면 클릭한 대상을 상위 컴포넌트로 보내줄 수 있다.
-4.
+4. v-model
+5.
 
 # Tips
 
 - npm i uuid(for unique id)
+- fake Rest API(https://jsonplaceholder.typicode.com/) https://jsonplaceholder.typicode.com/todos
+- npm i axios(for Rest API)
 
 # traversy_vue_todolist
 
